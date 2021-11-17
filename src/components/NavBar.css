@@ -1,0 +1,18 @@
+.nav {
+    text-align: center;
+    padding: 3rem;
+}
+
+.navFlex {
+    margin-top: 3rem;
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    padding: 1.1rem;
+    border-bottom: 1px solid grey;
+}
+
+.navItems {
+    text-decoration: none;
+    color: black;
+}
