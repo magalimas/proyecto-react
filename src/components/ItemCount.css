@@ -1,0 +1,22 @@
+.candleBombe {
+    width: 180px;
+}
+
+.containerItemCount{
+    display: flex;
+    flex-direction: column;
+    padding: 5rem;
+    align-items: flex-start;
+}
+
+.containerItemCount button {
+    margin: 0.2rem 0rem 0.2rem 1.5rem;
+    width: 8rem;
+}
+
+.containerItemCount span {
+    background-color: rosybrown;
+    padding: 1.1rem;
+    margin-left: 2rem;
+    width: 5rem;
+}
