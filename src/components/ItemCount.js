@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 import './ItemCount.css';
-import CandleBombe from './media/CandleBombe.png';
+import CandleBombe from '../assets/images/CandleBombe.png';
 
 const ItemCount = ({initial, stock, onAdd}) => {
     const [counter, setCounter] = useState (initial);
