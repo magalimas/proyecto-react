@@ -1,5 +1,5 @@
 import "./ItemListContainer.css"
-import ItemCount from '../../components/ItemCount';
+import ItemCount from '../../components/ItemCount/ItemCount';
 
 function ItemListContainer (props) {
     return (
