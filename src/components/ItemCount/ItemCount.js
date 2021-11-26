@@ -8,7 +8,7 @@ const ItemCount = ({initial, stock, onAdd}) => {
     const addition = () => {
         setCounter(counter + 1);
         if (counter >= stock ) {
-            setCounter(counter == 0 );
+            setCounter(counter === 0 );
         }
     };
     const subtraction = () => {
